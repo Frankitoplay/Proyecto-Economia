@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pyme System | Software a medida para PyMEs y comercios</title>
+<meta name="description" content="Desarrollamos sistemas de gestión, aplicaciones y páginas web adaptados a la forma de trabajar de cada PyME argentina.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@85..100,600..800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#inicio" class="logo" aria-label="Pyme System, inicio">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#2D6CDF"/><path d="M9 23V9h7.5a4.5 4.5 0 0 1 0 9H13" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Pyme System</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    <nav class="menu" id="menu">
+      <a href="#quienes-somos">Quiénes somos</a>
+      <a href="#servicios">Qué hacemos</a>
+      <a href="#proceso">Cómo lo hacemos</a>
+      <a href="#diferencia">Por qué a medida</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#contacto" class="btn btn-sm">Pedir presupuesto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <h1>Software que se adapta a cómo trabajás, no al revés.</h1>
+      <p class="lead">Somos un equipo de desarrollo que analiza los procesos de tu comercio o PyME y construye el sistema que realmente necesitás, con soporte antes, durante y después de la entrega.</p>
+      <div class="actions">
+        <a href="#contacto" class="btn">Contanos tu proyecto</a>
+        <a href="#proceso" class="btn btn-ghost">Ver cómo trabajamos</a>
+      </div>
+    </div>
+
+    <div class="demo" aria-label="Ejemplo interactivo de módulos">
+      <div class="demo-bar"><i></i><i></i><i></i><span>Tu sistema, módulo por módulo</span></div>
+      <div class="demo-body">
+        <div class="chips" role="group" aria-label="Elegí los módulos">
+          <button class="chip on" aria-pressed="true" data-mod="ventas">Ventas</button>
+          <button class="chip on" aria-pressed="true" data-mod="stock">Stock</button>
+          <button class="chip" aria-pressed="false" data-mod="clientes">Clientes</button>
+          <button class="chip" aria-pressed="false" data-mod="turnos">Turnos</button>
+          <button class="chip" aria-pressed="false" data-mod="facturas">Facturación</button>
+        </div>
+        <div class="mods" id="mods">
+          <div class="mod" data-mod="ventas"><b>Ventas</b><div class="bars"><s style="--h:40%"></s><s style="--h:65%"></s><s style="--h:50%"></s><s style="--h:85%"></s><s style="--h:70%"></s></div></div>
+          <div class="mod" data-mod="stock"><b>Stock</b><ul class="rows"><li></li><li></li><li></li></ul></div>
+          <div class="mod" data-mod="clientes" hidden><b>Clientes</b><ul class="rows"><li></li><li></li><li></li></ul></div>
+          <div class="mod" data-mod="turnos" hidden><b>Turnos</b><div class="cal"><s></s><s></s><s class="a"></s><s></s><s></s><s class="a"></s><s></s><s></s></div></div>
+          <div class="mod" data-mod="facturas" hidden><b>Facturación</b><div class="inv"><s></s><s></s><s></s></div></div>
+        </div>
+        <p class="demo-note">Ejemplo ilustrativo. Cada módulo se suma o se quita según lo que tu negocio necesite.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="quienes-somos">
+  <div class="wrap split">
+    <div>
+      <h2>Quiénes somos</h2>
+      <p>Pyme System es una empresa de desarrollo de software y soluciones informáticas pensada para micro y pequeñas empresas, comercios, emprendimientos y PyMEs de Argentina.</p>
+      <p>Partimos de una idea simple: cada negocio trabaja a su manera, y la tecnología tiene que acompañar esa forma de trabajo. Por eso empezamos entendiendo tus procesos antes de escribir una sola línea de código.</p>
+    </div>
+    <div class="mv">
+      <article>
+        <h3>Misión</h3>
+        <p>Brindar soluciones informáticas adaptadas a las necesidades de las PyMEs y comercios argentinos, para mejorar sus procesos, ordenar su información y aumentar su eficiencia.</p>
+      </article>
+      <article>
+        <h3>Visión</h3>
+        <p>Ser una empresa de software reconocida por la calidad de sus soluciones y la atención cercana, creciendo de forma progresiva y sostenible.</p>
+      </article>
+    </div>
+  </div>
+  <div class="wrap values">
+    <div><h3>Responsabilidad</h3><p>Cumplimos lo que acordamos y respetamos los plazos.</p></div>
+    <div><h3>Transparencia</h3><p>Precios, alcances y plazos claros, sin tecnicismos innecesarios.</p></div>
+    <div><h3>Calidad</h3><p>Sistemas confiables que funcionan bien desde el primer día.</p></div>
+    <div><h3>Postventa</h3><p>El proyecto no termina con la entrega: capacitamos y mantenemos.</p></div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="servicios">
+  <div class="wrap">
+    <div class="head">
+      <h2>Qué hacemos</h2>
+      <p>Un mismo equipo para resolver desde un sistema de gestión completo hasta la automatización de una tarea que hoy se hace a mano.</p>
+    </div>
+    <div class="svc">
+      <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v10H4zM8 19h8M12 15v4"/></svg><h3>Sistemas de gestión</h3><p>Ventas, stock, clientes, turnos y facturación en un solo lugar, armados según tu operación.</p></article>
+      <article><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></svg><h3>Aplicaciones</h3><p>Apps web y móviles para que tus clientes y tu equipo trabajen desde cualquier dispositivo.</p></article>
+      <article><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg><h3>Páginas web</h3><p>Sitios claros y rápidos que presentan tu negocio y generan consultas.</p></article>
+      <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg><h3>Automatización</h3><p>Eliminamos tareas manuales y repetitivas para que tu equipo se dedique a lo importante.</p></article>
+      <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6a4 4 0 0 0-5 5l-6 6 3 3 6-6a4 4 0 0 0 5-5l-3 2-2-2z"/></svg><h3>Mantenimiento</h3><p>Actualizamos y mejoramos sistemas existentes, también los que no hicimos nosotros.</p></article>
+      <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0 1 16 0v1M4 13h3v5H4zM17 13h3v5h-3zM17 18c0 2-2 3-5 3"/></svg><h3>Soporte técnico</h3><p>Asistencia cuando la necesitás, con planes mensuales opcionales.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-navy" id="proceso">
+  <div class="wrap">
+    <div class="head">
+      <h2>Cómo lo hacemos</h2>
+      <p>Un método de siete pasos, el mismo en todos los proyectos. Sabés en qué etapa estamos y qué viene después.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Relevamiento</h3><p>Conversamos para entender tu problema y cómo trabajás hoy.</p></li>
+      <li><h3>Planificación</h3><p>Definimos funciones, plazos y presupuesto antes de empezar.</p></li>
+      <li><h3>Diseño</h3><p>Acordamos cómo va a funcionar y cómo se va a ver la solución.</p></li>
+      <li><h3>Desarrollo</h3><p>Programamos lo acordado y te mostramos avances en hitos intermedios.</p></li>
+      <li><h3>Pruebas</h3><p>Probamos, corregimos errores y validamos que todo funcione.</p></li>
+      <li><h3>Entrega</h3><p>Implementamos, capacitamos a tu equipo y dejamos la documentación.</p></li>
+      <li><h3>Seguimiento</h3><p>Mantenimiento, soporte y mejoras según lo que contrates.</p></li>
+    </ol>
+    <p class="pay"><b>Pagos en tres tramos:</b> 50 % al aceptar la propuesta, 30 % al entregar el prototipo y 20 % con la entrega final.</p>
+  </div>
+</section>
+
+<section class="sec" id="diferencia">
+  <div class="wrap">
+    <div class="head">
+      <h2>Por qué a medida</h2>
+      <p>Los sistemas estándar funcionan para muchos negocios, pero te piden que cambies tu forma de trabajar. Nosotros hacemos lo contrario.</p>
+    </div>
+    <div class="cmp-wrap">
+      <table class="cmp">
+        <thead><tr><th></th><th>Sistema estándar</th><th class="us">Pyme System</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Adaptación</th><td>Vos te adaptás al sistema</td><td class="us">El sistema se adapta a tu proceso</td></tr>
+          <tr><th scope="row">Cambios</th><td>Dependen del proveedor</td><td class="us">Nuevas funciones a pedido</td></tr>
+          <tr><th scope="row">Crecimiento</th><td>Paquetes cerrados</td><td class="us">Módulos que se suman con el tiempo</td></tr>
+          <tr><th scope="row">Atención</th><td>Soporte general</td><td class="us">Comunicación directa con el equipo</td></tr>
+          <tr><th scope="row">Aprendizaje</th><td>Curva larga</td><td class="us">Interfaz pensada para tu equipo</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="equipo">
+  <div class="wrap">
+    <div class="head">
+      <h2>El equipo</h2>
+      <p>Siete personas en tres áreas. Las decisiones importantes las tomamos entre todos.</p>
+    </div>
+    <div class="team">
+      <article><h3>Área técnica</h3><p class="n">Tomás S. · Juan A. · Facundo A.</p><p>Analiza necesidades técnicas, diseña y desarrolla el software, y propone mejoras.</p></article>
+      <article><h3>Área comercial</h3><p class="n">Franco · Ramiro</p><p>Es tu contacto desde la primera consulta: releva necesidades, arma propuestas y hace el seguimiento.</p></article>
+      <article><h3>Finanzas y administración</h3><p class="n">Rodrigo · Sebastián</p><p>Organiza presupuestos, facturación y documentación para que todo sea claro y ordenado.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-navy" id="contacto">
+  <div class="wrap split">
+    <div>
+      <h2>Contanos qué necesitás</h2>
+      <p>Escribinos y te respondemos para coordinar una primera charla. Sin compromiso.</p>
+      <ul class="info">
+        <li>contacto@pymesystem.com.ar</li>
+        <li>WhatsApp: +54 9 11 0000-0000</li>
+        <li>Trabajamos de forma remota, con reuniones presenciales cuando hace falta.</li>
+      </ul>
+    </div>
+    <form id="form" class="form" novalidate>
+      <label>Nombre<input name="nombre" type="text" autocomplete="name" required></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      <label>¿Qué querés resolver?<textarea name="mensaje" rows="4" required></textarea></label>
+      <button class="btn" type="submit">Enviar consulta</button>
+      <p class="msg" id="msg" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>© <span id="year"></span> Pyme System. Todos los derechos reservados.</span>
+    <a href="#inicio">Volver arriba</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
